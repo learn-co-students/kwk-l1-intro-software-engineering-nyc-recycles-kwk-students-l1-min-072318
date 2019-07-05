@@ -5,18 +5,50 @@
 # We haven't hard coded the hashes in the tests, 
 #they're dynamically brought in from the NYC Open Data API
 
-# first_recycle_bin =  {
-#   "address"=>"E 227 St/Bronx River Pkway",
-#   "site_type"=>"Subproperty",
-#   "longitude"=>"-73.864223918",
-#   "borough"=>"Bronx",
-#   "latitude"=>"40.890848989",
-#   "park_site_name"=>"227th St. Plgd"
-# }
+first_recycle_bin =  {
+  "address"=>"E 227 St/Bronx River Pkway",
+  "site_type"=>"Subproperty",
+  "longitude"=>"-73.864223918",
+  "borough"=>"Bronx",
+  "latitude"=>"40.890848989",
+  "park_site_name"=>"227th St. Plgd"
+}
 
+second_recycle_bin = { 
+  "address"=>"Allerton Ave & Moshulu Pkway",
+  "site_type"=>"Subproperty",
+  "longitude"=>"-73.8771283938",
+  "borough"=>"Bronx",
+  "latitude"=>"40.8488907878",
+  "park_site_name"=>"Allerton Ballfields"}
+ 
+ third_recycle_bin = {
+  "address"=>"Arthur Ave & 187 St",
+  "site_type"=>"Outdoor",
+  "longitude"=>"-73.887564999999995",
+  "borough"=>"Bronx",
+  "latitude"=>"40.85557",
+  "park_site_name"=>"Arthur Ave & E 187 St"}
+ 
+ fourth_recycle_bin = {
+  "address"=>"895 Shore Road, Pelham Bay Park",
+  "site_type"=>"Outdoor ",
+  "longitude"=>"-73.805549",
+  "borough"=>"Bronx",
+  "latitude"=>"40.871864",
+  "park_site_name"=>"Barstow Mansion"}
+ 
+ 
 
 #1. Define a method `address`, that takes a hash as an argument.
 #This method should return the value of the address key in the hash.
+
+def adress(first_recycle_bin)
+  first_recycle_bin 
+  puts first_recycle_bin [adress]
+
+return adress(first_recycle_bin)
+end 
 
 #2. Define a method called `borough` that takes a hash as an argument.
 # This method should return the value of the borough key in the hash.
